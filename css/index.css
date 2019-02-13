@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body{
+	background-color:white;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+a{
+	color: lightgray;
+	text-decoration: none;
+}
+
+/*header*/
+
+header{
+	width: 100%;
+	text-align: right;
+	margin-bottom: 40px;
+}
+
+header nav{
+	display:inline-block;
+}
+
+header nav a{
+	display:inline-block;
+	margin: 20px;
+}
+
+header nav a:first-child{
+	margin-left: 20px;
+}
+
+header nav .logo{
+	vertical-align: middle;
+	padding-right:60px;
+	margin-left: 80px;
+}
+
+
+section{
+	margin: 24px 0;
+	/*//padding: 0 40px*/
+}
+
+/*Innovation Section*/
+section.section-banner{
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+section div.innovation{
+	width:50%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	height: 100%;
+	padding: 40px;
+	margin-right: 70px;
+}
+
+div.innovation h1 span{
+	font-size: 60px;
+	display:block;
+}
+
+div.innovation button{
+	width: 160px;
+	padding: 4px;
+}
+
+section .hero-image{
+	width: 35%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*content-top*/
+section.content-top{
+	width: 100%;
+}
+
+section div p{
+	text-align:justify;
+	line-height: 1.25em;
+}
+
+section.content-top div{
+	width: 47%;
+	display: inline-block;
+}
+
+section.content-top div:first-child{
+	margin-right: 40px;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+
+/*content-bottom*/
+section.content-bottom{
+	width: 100%;
+	border-bottom:1px solid black;
+	padding-bottom: 30px
+}
+
+section.content-bottom div{
+	width: 30%;
+	margin-right: 22px;
+	display: inline-block;
+}
+
+section.content-bottom div:last-child{
+	margin-right: 40px;
+}
+
+section.content-bottom div p{
+	text-align: justify;
+	display: inline-block;
+}
+
+/*footer section*/
+footer{
+	width: 100%;
+	line-height: 1.25em;
+}
+
+footer div.copyright{
+	padding: 20px 0 40px 0;
+	text-align: center;
+}
+
+footer div.contact{
+	width: 200px;
+}
+
+footer strong{
+	display: block;
+	margin-bottom: 10px;
+}
+
+footer .address{
+	width:100%;
+}
+
